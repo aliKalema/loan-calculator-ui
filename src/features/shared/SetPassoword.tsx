@@ -94,7 +94,7 @@ function SetPassoword(){
                                 Confirm Password
                                 <span className="text-red-500">*</span>
                             </label>
-                            <input  type="text" name="confirm" id="confirm" className="appearance-none block w-full text-gray-700 border border-gray-200 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:border-blue-500" onChange={handleInput} required/>
+                            <input  type="password" name="confirm" id="confirm" className="appearance-none block w-full text-gray-700 border border-gray-200 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:ring-2 focus:border-blue-500" onChange={handleInput} required/>
                         </div>
 
                         <button type="submit"
